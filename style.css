@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap'); */
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background: url(./pexels-damir-mijailovic-4492736\ 1.png) no-repeat;
+    background-size: cover;
+
+}
+.container{
+    max-width: 1049px;
+    /* height: 507px; */
+    background: rgba(9, 33, 67, 0.5);
+    box-shadow: 24px 26px 4px -15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 36px;
+    margin: 80px auto;
+    padding-top: 25px;
+    padding-bottom: 4px;
+}
+.cnt_down{
+    /* padding-top: 25px; */
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    /* height: ; */
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 200;
+   font-size: 90px;
+   line-height: 135px;
+   text-align: center;
+   letter-spacing: 0.125em;
+
+color: #FFFFFF;
+}
+.tminus{
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.2em;
+
+color: #A5DEFF;
+}
+.boxes{
+    /* margin-top: 80px; */
+    margin: 80px auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #fff; */
+}
+.box{
+background: #080F1A;
+border-radius: 22px;
+width: 199px;
+height: 199px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.shrift{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 96px;
+text-align: center;
+color: #FFFFFF;
+}
+.text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #A5DEFF;
+}
